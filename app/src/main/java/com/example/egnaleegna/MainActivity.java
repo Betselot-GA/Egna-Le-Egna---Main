@@ -66,10 +66,6 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case 2:{
-                        tab.setIcon(R.drawable.ic_notification);
-                        break;
-                    }
-                    case 3:{
                         tab.setIcon(R.drawable.ic_account);
                         BadgeDrawable badgeDrawable = tab.getOrCreateBadge();
                         badgeDrawable.setNumber(2);
